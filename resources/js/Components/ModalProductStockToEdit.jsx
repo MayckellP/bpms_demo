@@ -15,7 +15,7 @@ function ModalProductStockToEdit(props) {
     });
 
     const submit = (e) => {
-        console.log(data);
+        //console.log(data);
         e.preventDefault();
         patch(route("warehouse.update", props.id));
     };

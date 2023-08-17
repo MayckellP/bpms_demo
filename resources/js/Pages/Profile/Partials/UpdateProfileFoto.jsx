@@ -66,7 +66,10 @@ export default function UpdateProfileFoto({ className = "" }) {
                 {image && <img src={image} className="cont-foto-logo"></img>}
 
                 <div className="flex items-center gap-4">
-                    <PrimaryButton className="px-3 py-1" disabled={processing}>
+                    <PrimaryButton
+                        className="save-profile shadow"
+                        disabled={processing}
+                    >
                         Save
                     </PrimaryButton>
 
@@ -76,7 +79,9 @@ export default function UpdateProfileFoto({ className = "" }) {
                         leaveTo="opacity-0"
                         className="transition ease-in-out"
                     >
-                        <p className="text-sm text-gray-600">Saved.</p>
+                        <p className="text-sm text-gray-600 text-success fw-bold">
+                            Saved.
+                        </p>
                     </Transition>
                 </div>
             </form>

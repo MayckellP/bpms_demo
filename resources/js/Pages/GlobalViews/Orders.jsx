@@ -19,7 +19,7 @@ export default function Orders({
     allMyOrdersCompleted,
     allOrdersInProcess,
 }) {
-    console.log(completeTable);
+    //console.log(completeTable);
     const roleName = JSON.parse(sessionStorage.getItem("currentUser")).role;
     if (roleName !== "Client") {
         completeTable = allCompleteTable;
@@ -53,7 +53,7 @@ export default function Orders({
     var inputOrderCompletedBG = inputOrderCompletedRefBG.current;
 
     const ordersInProcess = () => {
-        console.log(inputOrderInProcessBG);
+        //console.log(inputOrderInProcessBG);
         if (inputOrderInProcess.checked) {
             inputOrderCompleted.checked = false;
             inputOrderInProcessBG.style.backgroundColor = "#c9ad83";
@@ -91,7 +91,7 @@ export default function Orders({
         const myDate = e.target.value;
         setFilteredDateOrClient(myDate);
         setActiveDate(true);
-        console.log(myDate);
+        //console.log(myDate);
     };
 
     const showFilteredClient = (e) => {
@@ -101,7 +101,7 @@ export default function Orders({
         } else {
             setFilteredDateOrClient(false);
         }
-        console.log(myClient);
+        //console.log(myClient);
     };
 
     const goToSearch = (e) => {

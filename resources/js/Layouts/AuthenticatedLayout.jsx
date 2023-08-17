@@ -44,7 +44,7 @@ export default function Authenticated({ user, header, children }) {
 
     /*-------------------------------------------------------------------------CART SHOP  */
     const cartDetails = JSON.parse(sessionStorage.getItem("myCurrentCart"));
-    console.log("variable:", cartDetails);
+    //console.log("variable:", cartDetails);
     const myNewCart = cartDetails.map((item) => (
         <div className="cart-item" key={item.id}>
             <div className="cont-img-product mb-4">
@@ -78,7 +78,7 @@ export default function Authenticated({ user, header, children }) {
     /*-------------------------------------------------------------------------NOTIFY CART  */
     const notifyCount = cartDetails.length;
     var contNotify;
-    console.log(notifyCount);
+    //console.log(notifyCount);
     if (cartDetails.length < 1) {
         contNotify = "d-none";
     } else {

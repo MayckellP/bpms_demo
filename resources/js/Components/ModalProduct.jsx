@@ -43,7 +43,7 @@ function ModalProduct(props) {
 
     const submit = (e) => {
         data.price = inputPrice;
-        console.log(data);
+        //console.log(data);
         e.preventDefault();
         post(route("store.store"));
     };

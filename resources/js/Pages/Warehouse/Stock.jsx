@@ -21,11 +21,6 @@ export default function Stock({ auth, myStock, alertStock }) {
     const inputStockAlertRefBG = useRef(null);
     var inputStockAlertBG = inputStockAlertRefBG.current;
 
-    console.log("My Stock: ", myStock);
-    console.log("Alert: ", alertStock);
-    console.log("1: ", myStockToFilter);
-    console.log("2: ", filteredData);
-
     const stockAlert = () => {
         if (inputStockAlert.checked) {
             inputStockAlertBG.style.backgroundColor = "Red";

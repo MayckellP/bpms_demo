@@ -136,7 +136,7 @@ export default function Store({
     });
 
     const submit = (e) => {
-        console.log(data);
+        //console.log(data);
         e.preventDefault();
         post(route("store.store"));
     };

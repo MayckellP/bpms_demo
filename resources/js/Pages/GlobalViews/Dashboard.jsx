@@ -20,9 +20,6 @@ export default function Dashboard({
     var countClaim = 0;
     var countSolution = 0;
 
-    console.log(moment(monthlyCosts[0].month).format("MMMM"));
-    console.log(monthlyCosts);
-
     const addMonthlyCostes = [];
     const month = [
         "January",
@@ -51,7 +48,7 @@ export default function Dashboard({
         }
     });
 
-    console.log(addMonthlyCostes);
+    //console.log(addMonthlyCostes);
 
     //DESIGN
     const monthlyPrice = {

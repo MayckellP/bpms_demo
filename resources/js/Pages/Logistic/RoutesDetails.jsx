@@ -16,10 +16,10 @@ export default function EmployeeDetails({
     var clientPoint = [];
     var newRoutes = [...routes].reverse();
 
-    console.log("Autos: ", routesCountAuto);
-    console.log(routes);
-    console.log(routesCountDate[0].date);
-    console.log(moment().format("YYYY/MM/DD"));
+    //console.log("Autos: ", routesCountAuto);
+    //console.log(routes);
+    //console.log(routesCountDate[0].date);
+    //console.log(moment().format("YYYY/MM/DD"));
 
     /* const myRoutes = routesCount.map((route, index) =>
         auth.user.name === route.driver ? (

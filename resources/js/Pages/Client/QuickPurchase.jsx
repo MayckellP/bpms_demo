@@ -59,7 +59,7 @@ export default function QuickPurchase({ auth, stock, filterStock }) {
     const submit = (e) => {
         data.price = inputPrice;
         data.description = inputDescription;
-        console.log(data);
+        //console.log(data);
         e.preventDefault();
         var content = document.getElementById("content-product");
         var allOk = document.getElementById("all-ok");

@@ -21,7 +21,7 @@ function ModalProductDelivered(props) {
         reader.onload = () => {
             const imgUrl = reader.result;
             setImage(imgUrl);
-            console.log(event.target.files);
+            //console.log(event.target.files);
         };
 
         reader.readAsDataURL(file);
@@ -29,7 +29,7 @@ function ModalProductDelivered(props) {
     };
 
     const submit = (e) => {
-        console.log(data);
+        //console.log(data);
         e.preventDefault();
         post(route("logistic.store"));
     };

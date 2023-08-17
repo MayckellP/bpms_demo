@@ -25,7 +25,7 @@ export default function UpdateCompanyLogo({ className = "" }) {
         reader.onload = () => {
             const imgUrl = reader.result;
             setLogo(imgUrl);
-            console.log(event.target.files);
+            //console.log(event.target.files);
         };
 
         reader.readAsDataURL(file);
@@ -34,7 +34,7 @@ export default function UpdateCompanyLogo({ className = "" }) {
 
     const submit = (e) => {
         e.preventDefault();
-        console.log(data);
+        //console.log(data);
 
         post(route("profile.addImage"));
     };
@@ -68,7 +68,10 @@ export default function UpdateCompanyLogo({ className = "" }) {
 
                 {logo && <img src={logo} className="cont-foto-logo"></img>}
                 <div className="flex items-center gap-4">
-                    <PrimaryButton className="px-3 py-1" disabled={processing}>
+                    <PrimaryButton
+                        className="save-profile shadow"
+                        disabled={processing}
+                    >
                         Save
                     </PrimaryButton>
 
@@ -78,7 +81,9 @@ export default function UpdateCompanyLogo({ className = "" }) {
                         leaveTo="opacity-0"
                         className="transition ease-in-out"
                     >
-                        <p className="text-sm text-gray-600">Saved.</p>
+                        <p className="text-sm text-gray-600 text-success fw-bold">
+                            Saved.
+                        </p>
                     </Transition>
                 </div>
             </form>

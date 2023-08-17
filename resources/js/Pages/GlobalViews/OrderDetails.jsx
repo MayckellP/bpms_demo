@@ -7,7 +7,7 @@ import LinearProgress from "@mui/material/LinearProgress";
 
 export default function OrderDetails({ auth, completeTable, orderDetailID }) {
     var identifier = "register";
-    console.log(completeTable);
+    //console.log(completeTable);
     const orderDetail = [];
     completeTable.map((item) => {
         if (item.id == orderDetailID) {

@@ -47,7 +47,7 @@ function ModalClaim(props) {
     };
 
     const submit = (e) => {
-        console.log("POST:  ", data);
+        //console.log("POST:  ", data);
         e.preventDefault();
         post(route("claimOrders.store"));
     };
