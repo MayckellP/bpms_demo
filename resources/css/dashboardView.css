@@ -1,0 +1,586 @@
+.cont-global {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont-left {
+    width: 56%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cont-chart-order {
+    background-color: #9ed2ef;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-left-logistic {
+    width: 58%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-right-logistic {
+    width: 42%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*!------------------------------------------------LEFT SIDE DETAILS (CLIENT)  */
+.cont-title-chart {
+    width: 100%;
+    text-align: center;
+}
+.title-chart-order {
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Sen", sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.subCont-chart-order {
+    padding: 1rem;
+    width: 100%;
+    height: 90%;
+}
+
+.cont-btn-order-rate {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn-generate-order {
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 0rem;
+    background: #4464d7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.btn-vector-order {
+    background: URL("/images/icons/order-vector.svg") no-repeat right;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+}
+.btn-vector-order span {
+    font-size: 25px;
+    font-family: "Sen", sans-serif;
+}
+
+.btn-rate-order,
+.btn-rate-order-mobile {
+    width: 70%;
+    margin-bottom: 1rem;
+    padding: 0rem;
+    background: #4e9b10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.btn-vector-rate,
+.btn-vector-rate-mobile {
+    background: URL("/images/icons/rate-vector.svg") no-repeat right;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+}
+.btn-vector-rate span,
+.btn-vector-rate-mobile span {
+    font-size: 25px;
+    font-family: "Sen", sans-serif;
+}
+
+/*!------------------------------------------------RIGHT SIDE DETAILS (CLIENT) */
+.cont-right {
+    width: 42%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cont-chart-rate {
+    background-color: #c2ef9e;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.cont-btn-graph {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-chart-claim {
+    background-color: #ef9e9e;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.chart-claim-title {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+.chart-claim-counter {
+    font-size: 100px;
+    color: white;
+}
+.cont-btn-claim-rate {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-claim-order {
+    width: 70%;
+    padding: 0rem;
+    background: #cc3c3c;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.btn-rate-order-mobile {
+    display: none;
+}
+.btn-vector-claim {
+    background: URL("/images/icons/claim-vector.svg") no-repeat left;
+    margin: 0;
+    height: 100%;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+.btn-vector-claim span {
+    font-size: 25px;
+    font-family: "Sen", sans-serif;
+}
+
+.btn-rate-claim {
+    width: 70%;
+    margin-bottom: 1rem;
+    padding: 0rem;
+    background: #4e9b10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+/*!------------------------------------------------LEFT SIDE DETAILS (LOGISTIC)*/
+
+.cont-chart-logistic {
+    background-color: #9ed2ef;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cont-title-chart-logistic {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.title-chart-logistic {
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Sen", sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.subCont-chart-logistic {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subCont-chart-logistic iframe {
+    height: 90%;
+    width: 99%;
+    border-radius: 15px;
+}
+
+/*!------------------------------------------------RIGHT SIDE DETAILS (LOGISTIC) */
+.cont-chart-logistic-product {
+    background-color: #c2ef9e;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.cont-title-chart-product-logistic {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.title-chart-product-logistic {
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Sen", sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.chart-product-logistic {
+    width: 100%;
+    height: 80%;
+}
+.cont-btn-order-logistic {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+.btn-order-logistic {
+    width: 100%;
+}
+.btn-show-routes {
+    width: 100%;
+    padding: 0rem;
+    background: #4464d7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.btn-show-routes img {
+    width: 15%;
+}
+
+.btn-vector-routes {
+    background: URL("/images/icons/order-vector.svg") no-repeat right;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+}
+.btn-vector-routes span {
+    font-size: 25px;
+    font-family: "Sen", sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .cont-global {
+        height: 100%;
+        padding: 0rem 1rem;
+        flex-direction: column;
+        justify-content: center;
+        overflow: scroll;
+    }
+    .cont-global::-webkit-scrollbar {
+        display: none;
+    }
+    .cont-global {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .cont-left {
+        margin-top: 2rem;
+        width: 100%;
+        height: 100%;
+    }
+    .cont-right {
+        width: 100%;
+        height: 100%;
+    }
+    .cont-chart-order {
+        margin-bottom: 0.5rem;
+        margin-top: 20rem;
+        height: 100%;
+        flex-direction: column;
+    }
+    .cont-title-chart {
+        width: 100%;
+        align-self: flex-start;
+        margin: 0rem 0rem 0rem 1rem;
+    }
+    .title-chart-order {
+        position: relative;
+        font-size: 30px;
+    }
+    .btn-generate-order {
+        width: 100%;
+        height: 70%;
+        margin-bottom: 0.5rem;
+    }
+    .btn-vector-order {
+        width: 100%;
+        height: 100%;
+    }
+    .btn-vector-order img {
+        width: 8%;
+        margin: 0.5rem 0rem;
+    }
+    .btn-vector-order span {
+        font-size: 20px;
+    }
+    .btn-vector-rate {
+        display: none;
+        margin-bottom: 0rem;
+    }
+    .cont-chart-rate {
+        width: 100%;
+        height: 80%;
+        margin-bottom: 0.5rem;
+    }
+    .cont-btn-graph {
+        flex-direction: column-reverse;
+    }
+    .cont-btn-claim-rate {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .btn-rate-order-mobile {
+        display: inherit;
+    }
+    .btn-claim-order,
+    .btn-rate-order-mobile {
+        width: 49%;
+        height: 80%;
+        border-radius: 25px;
+    }
+    .btn-vector-claim,
+    .btn-vector-rate-mobile {
+        justify-content: space-around;
+        height: 100%;
+        padding: 0;
+    }
+    .btn-vector-claim img,
+    .btn-vector-rate-mobile img {
+        width: 10%;
+    }
+    .btn-vector-claim span,
+    .btn-vector-rate-mobile span {
+        font-size: 20px;
+        font-family: "Sen", sans-serif;
+    }
+    .cont-right-logistic {
+        width: 100%;
+        height: 100%;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 1000px) {
+    @media (max-height: 1300px) {
+        .cont-chart-order {
+            margin-top: 13rem;
+            width: 100%;
+            height: 100%;
+
+            flex-direction: column;
+            margin-bottom: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    @media (max-height: 1200px) {
+        .cont-chart-order {
+            margin-top: 10rem;
+            width: 100%;
+            height: 100%;
+
+            flex-direction: column;
+            margin-bottom: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .cont-global {
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+    }
+    .cont-global::-webkit-scrollbar {
+        display: none;
+    }
+    .cont-global {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .cont-left {
+        width: 100%;
+    }
+    .cont-right {
+        width: 100%;
+    }
+    .cont-right-logistic {
+        width: 100%;
+        height: 100%;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cont-chart-order {
+        margin-top: 0rem;
+        width: 100%;
+        height: 100%;
+
+        flex-direction: column;
+        margin-bottom: 0.8rem;
+    }
+    .cont-title-chart {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+    }
+    .title-chart-order {
+        width: 100%;
+        position: relative;
+        font-size: 28px;
+    }
+    .subCont-chart-order {
+        width: 100%;
+        height: 80%;
+        padding: 0;
+    }
+
+    .btn-generate-order {
+        width: 100%;
+        height: 70%;
+        margin-bottom: 0.5rem;
+    }
+    .btn-vector-order {
+        width: 100%;
+        height: 100%;
+    }
+    .btn-vector-order img {
+        width: 8%;
+        margin: 0.5rem 0rem;
+    }
+    .btn-vector-order span {
+        font-size: 20px;
+    }
+    .btn-vector-rate {
+        display: none;
+        margin-bottom: 0rem;
+    }
+
+    .cont-chart-logistic-product {
+        background-color: #c2ef9e;
+        width: 100%;
+        height: 100%;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .cont-chart-rate {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .cont-btn-graph {
+        flex-direction: column-reverse;
+    }
+    .cont-btn-claim-rate {
+        margin: 0.5rem 0rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .btn-rate-order-mobile {
+        display: inherit;
+    }
+    .btn-claim-order,
+    .btn-rate-order-mobile {
+        width: 49%;
+        height: 100%;
+        border-radius: 25px;
+    }
+    .btn-vector-claim,
+    .btn-vector-rate-mobile {
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        padding: 0;
+    }
+    .btn-vector-claim img,
+    .btn-vector-rate-mobile img {
+        width: 12%;
+    }
+    .btn-vector-claim span,
+    .btn-vector-rate-mobile span {
+        font-size: 20px;
+        font-family: "Sen", sans-serif;
+    }
+    .cont-chart-claim {
+        background-color: #ef9e9e;
+        width: 100%;
+        height: 75%;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .chart-claim-title {
+        font-size: 25px;
+    }
+    .chart-claim-counter {
+        font-size: 75px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    @media (max-width: 1000px) {
+        .cont-chart-order {
+            width: 100%;
+            height: 100%;
+            margin-top: 20.5rem;
+            flex-direction: column;
+            margin-bottom: 0.8rem;
+        }
+        .cont-right-logistic {
+            width: 100%;
+            height: 100%;
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+}

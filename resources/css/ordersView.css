@@ -1,0 +1,532 @@
+.cont-global-register {
+    width: 100%;
+    height: 100%;
+    padding: 0rem 1.5rem;
+}
+.cont-filter-register {
+    width: 100%;
+    height: 20%;
+}
+.title-newOrders {
+    color: red;
+    font-family: "Sen", sans-serif;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+.count-title-newOrders {
+    background-color: red;
+    color: white;
+    padding: 0rem 0.5rem;
+    border-radius: 10px;
+}
+.cont-table-register {
+    margin-top: 1rem;
+    width: 100%;
+    height: 75%;
+    overflow: scroll;
+}
+.cont-table-register::-webkit-scrollbar {
+    display: none;
+}
+.cont-table-register {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.cont-date-search {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont-orderCompleted-date {
+    width: 100%;
+    height: 40%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-date-register {
+    width: 15%;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.cont-orderInProcess {
+    background-color: white;
+    width: 12%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cont-orderCompleted {
+    background-color: white;
+    width: 12%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.count-order-completed {
+    background-color: #5569cd;
+    color: white;
+    font-weight: bold;
+    width: 1.75rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+}
+.filter-orderCompleted-check {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter-orderCompleted-check input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.filter-orderCompleted-check label {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.filter-orderCompleted-check label:hover {
+    cursor: pointer;
+}
+
+.register-cont-search,
+.register-cont-search-mobile {
+    width: 50%;
+    height: 85%;
+    padding: 0rem;
+    display: flex;
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.register-search-input,
+.register-search-input-mobile {
+    width: 80%;
+    height: 20%;
+    border: none;
+    font-size: 12px;
+}
+.register-search-text,
+.register-search-text-mobile {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    border-right: 1px solid black;
+}
+.register-cont-lupe,
+.register-cont-lupe-mobile {
+    background-color: #6390c3;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.register-cont-lupe img,
+.register-cont-lupe-mobile img {
+    width: 20%;
+    height: 100%;
+}
+.title-search {
+    color: black;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.register-cont-lupe:hover,
+.register-cont-lupe-mobile:hover {
+    background-color: aquamarine;
+}
+
+.select-register,
+.select-register-mobile {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    font-size: 15px;
+    color: black;
+    font-family: "Sen", sans-serif;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+/**----------------------------------CHATS & TRACKS BUTTONS  */
+.cont-register-inventar {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+.btn-register-inventar {
+    background-color: #3c3c3c;
+    width: 20%;
+    height: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-register-inventar a {
+    width: 50%;
+    height: 100%;
+    border: none;
+    text-decoration: none;
+}
+.btn-orders {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-orders span {
+    font-family: "Sen", sans-serif;
+    font-size: 12px;
+}
+.btn-inventar {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-inventar span {
+    font-family: "Sen", sans-serif;
+    font-size: 12px;
+}
+
+.tbl-header {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Sen", sans-serif;
+}
+.tbl-index {
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Sen", sans-serif;
+}
+.tbl-item {
+    font-size: 20px;
+    vertical-align: middle;
+}
+.tbl-td {
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.action-order-tbl {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-details-tbl {
+    background-color: #6390c3;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: none;
+    font-family: "Sen", sans-serif;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.btn-start-proccess {
+    background-color: #b94a0c;
+    width: 25%;
+    text-align: center;
+    align-self: center;
+    padding: 0.2rem 0rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: "Sen", sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-start-proccess:hover {
+    background-color: #9b400c;
+    cursor: pointer;
+}
+
+.register-cont-search-mobile,
+.select-register-mobile {
+    display: none;
+}
+.btn-stock-sent-tbl {
+    background-color: black;
+    width: 50%;
+    border: none;
+    font-family: "Sen", sans-serif;
+}
+.btn-stock-edit-tbl {
+    background-color: #506da7;
+    width: 50%;
+    border: none;
+    font-family: "Sen", sans-serif;
+}
+.btn-stock-details-tbl {
+    background-color: #727272;
+    width: 50%;
+    border: none;
+    font-family: "Sen", sans-serif;
+}
+.cont-detailStock-product {
+    width: 58%;
+    height: 100%;
+    text-align: center;
+}
+.cont-detailStock-product h2 {
+    font-size: 30px;
+    font-family: "Sen", sans-serif;
+    margin-bottom: 1rem;
+}
+.info-cardStock {
+    color: rgb(90, 89, 89);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.cont-detailStock-product p {
+    font-size: 25px;
+    font-family: "Sen", sans-serif;
+    margin-top: 1rem;
+}
+.cont-colorStock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colorStock {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.cont-colorStock span {
+    font-size: 20px;
+    font-family: "Sen", sans-serif;
+}
+.cont-newFoto-stock {
+    width: 50%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.btn-create-product {
+    background-color: green;
+    border: none;
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    right: 45%;
+    bottom: 5rem;
+    font-size: 45px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s ease;
+}
+.btn-create-product:hover {
+    transform: rotate(360deg);
+    background-color: green;
+    font-size: 45px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 850px) {
+    .cont-global-register {
+        padding: 0rem 0.5rem;
+    }
+    .cont-filter-register {
+        height: 20%;
+        padding-bottom: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0.5rem 0rem;
+    }
+    .cont-table-register {
+        margin-top: 0rem;
+        height: 80%;
+    }
+    /*!-----------------------------------------------------------FILTER SIDE  */
+    /**--------------------------------------------TOP SIDE  */
+    .cont-date-search {
+        height: 45%;
+    }
+    /**-------------------ORDER IN PROCESS   */
+    .cont-orderInProcess {
+        width: 42%;
+        font-size: 12px;
+    }
+
+    /**-------------------SEARCH   */
+    .register-cont-search {
+        width: 55%;
+    }
+    .register-search-input {
+        width: 70%;
+    }
+    .register-cont-lupe {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+    }
+    .register-cont-lupe img {
+        width: 100%;
+        display: none;
+    }
+    .title-search {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        color: white;
+    }
+    /**--------------------------------------------BOT SIDE  */
+
+    .cont-orderCompleted-date {
+        height: 45%;
+    }
+
+    /**-------------------ORDER COMPLETED   */
+    .cont-orderCompleted {
+        width: 42%;
+        font-size: 12px;
+    }
+    .filter-orderCompleted-check label {
+        font-size: 13px;
+    }
+
+    /**-------------------DATE OR ALL CLIENTS INPUT   */
+    .filter-date-register {
+        width: 30%;
+        height: 80%;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    .tbl-header {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .tbl-index,
+    .tbl-td,
+    .tbl-item {
+        font-size: 12px;
+    }
+    .btn-details-tbl {
+        font-size: 10px;
+        padding: 0.2rem;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .btn-stock-sent-tbl {
+        background-color: black;
+        width: 100%;
+        border: none;
+        font-size: 10px;
+        font-family: "Sen", sans-serif;
+    }
+    .btn-stock-edit-tbl {
+        background-color: #506da7;
+        width: 100%;
+        border: none;
+        font-size: 10px;
+        font-family: "Sen", sans-serif;
+    }
+    .btn-stock-details-tbl {
+        background-color: #727272;
+        width: 100%;
+        border: none;
+        font-size: 10px;
+        font-family: "Sen", sans-serif;
+    }
+
+    .action-order-tbl {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .btn-start-proccess {
+        width: 100%;
+        padding: 0.2rem 1rem;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .btn-details-tbl {
+        background-color: #6390c3;
+        padding: 0.5rem 0rem;
+        width: 100%;
+        border: none;
+        font-size: 12px;
+        font-family: "Sen", sans-serif;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+
+    /**----------------------------------CHATS & TRACKS BUTTONS  */
+    .cont-register-inventar {
+        width: 35%;
+        padding: 0.5rem;
+    }
+    .btn-register-inventar {
+        width: 100%;
+    }
+    .btn-create-product {
+        left: 45%;
+        bottom: 4.5%;
+        width: 4rem;
+        height: 4rem;
+        font-size: 30px;
+    }
+
+    .btn-create-product:hover {
+        transform: rotate(360deg);
+        background-color: green;
+        font-size: 45px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+@media (max-width: 450px) {
+    .btn-create-product {
+        left: 40%;
+        bottom: 4.5%;
+        width: 4rem;
+        height: 4rem;
+        font-size: 30px;
+    }
+}
